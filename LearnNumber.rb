@@ -26,3 +26,7 @@ puts "4" * 4 #result: 4444
 #數字的字串可以轉成是數字，純文字就會轉成0
 puts 17.to_f #result:17.0
 puts "hello".to_i #result:0
+
+#數字的比較，用兩個等於就單純的比較數值，用equls去比較，就會連型態也一起比較
+puts 10 == 10.0 #result:true
+puts 10.eql?(10.0) #result:false
